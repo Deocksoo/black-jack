@@ -39,5 +39,5 @@ class ScoreOptimizedCards private constructor(
 }
 
 private fun List<Card>.isBurst(): Boolean {
-    return sumOf { it -> it.score() } > ScoreOptimizedCards.BURST_THRESHOLD
+    return sumOf { it.score() } > ScoreOptimizedCards.BURST_THRESHOLD
 }
